@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero {
+    background: url(/img/Travel\ Time.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px rgba(black);
+}
+
+.header__list-item {}
+
+.header__list-link {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hero__desc {}
+
+.hero__title {}
+
+.hero__title-text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 96px;
+    color: white;
+    text-align: center;
+}
+
+.hero__nar {}
+
+.hero__nar-text {
+    font-family: var(--font-family);
+    font-weight: 275;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    height: 72px;
+    width: 749px;
+}
+
+.button {}
+
+.button__link {
+    text-decoration: none;
+}
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Roboto", sans-serif;
+}
